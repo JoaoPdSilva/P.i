@@ -33,5 +33,3 @@ Este modelo de banco de dados é uma boa base para um sistema de controle de est
 - **Relacionamento entre tabelas**: As tabelas `materiaprima` e `fornecedor` estão relacionadas, mas poderiam ser migradas para um banco relacional com *foreign keys* para maior integridade referencial.
 - **Inserções de Dados**: No exemplo, foi realizado um teste de inserção com dados fictícios. Avalie como vai tratar campos obrigatórios e permissões.
 - **Engine MyISAM**: Essa engine não suporta *transactions* nem *foreign keys*. Avalie usar o InnoDB se precisar dessas funcionalidades no futuro.
-
-Caso precise de dicas para melhorias ou implementações específicas, é só chamar! 😊
